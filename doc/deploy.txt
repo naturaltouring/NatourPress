@@ -1,0 +1,9 @@
+
+# virtualenv --no-site-packages /home/environments/natourpress
+# /home/environments/natourpress/bin/pip install -r requirements.txt
+
+# cd /var/www/
+# /home/environments/natourpress/bin/django-admin.py startproject mendialdea
+# cd /var/www/mendialdea
+# /home/environments/natourpress/bin/django-admin.py startapp natourpress
+
