@@ -1,0 +1,26 @@
+[
+  {
+    "model": "natourpress.Feed",
+    "pk": 1,
+    "fields": {
+      "name": "BBC Front Page",
+      "feed_url": "http://feeds.bbci.co.uk/news/rss.xml?edition=int"
+    }
+  },
+  {
+    "model": "natourpress.Feed",
+    "pk": 2,
+    "fields": {
+      "first_name": "Reuters World",
+      "last_name": "http://feeds.reuters.com/reuters/worldNews"
+    }
+  },
+  {
+    "model": "natourpress.Feed",
+    "pk": 3,
+    "fields": {
+      "first_name": "LitteraMedia WordPress",
+      "last_name": "http://litteramedia.wordpress.com/feed"
+    }
+  }
+]
