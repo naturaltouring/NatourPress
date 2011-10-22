@@ -13,7 +13,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
         'NAME': 'natourpress',                      
-        'USER': 'natourpress',                      
+        'USER': 'natourpress',
         'PASSWORD': 'natourpress',                  
         'HOST': '',                      
         'PORT': '',                      

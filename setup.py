@@ -5,9 +5,7 @@ from distutils.core import setup
 setup(
     name='django-natourpress',
     version='0.0.1',
-    description='Natourpress',
-    author='Nando Quintana',
-    author_email='email@nandoquintana.com',
+    description='Natourpress feed aggregator and more',
     url='http://www.natouring.net/',
     packages=[
     'natourpress',
