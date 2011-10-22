@@ -11,16 +11,16 @@
     "model": "natourpress.Feed",
     "pk": 2,
     "fields": {
-      "first_name": "Reuters World",
-      "last_name": "http://feeds.reuters.com/reuters/worldNews"
+      "name": "Reuters World",
+      "feed_url": "http://feeds.reuters.com/reuters/worldNews"
     }
   },
   {
     "model": "natourpress.Feed",
     "pk": 3,
     "fields": {
-      "first_name": "LitteraMedia WordPress",
-      "last_name": "http://litteramedia.wordpress.com/feed"
+      "name": "LitteraMedia WordPress",
+      "feed_url": "http://litteramedia.wordpress.com/feed"
     }
   }
 ]
