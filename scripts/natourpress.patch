@@ -1,33 +1,39 @@
-*** ./NatourPress/settings.py	2011-10-22 12:15:17.000000000 +0200
---- ./NatourPress/settings.py	2011-10-22 14:38:40.000000000 +0200
+*** ./NatourPress/settings.py	2011-10-22 15:39:53.000000000 +0200
+--- ./NatourPress/settings.py	2011-10-22 15:42:39.000000000 +0200
 ***************
-*** 12,20 ****
+*** 11,22 ****
+  
   DATABASES = {
       'default': {
-          'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+!         'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
 !         'NAME': '',                      # Or path to database file if using sqlite3.
 !         'USER': '',                      # Not used with sqlite3.
 !         'PASSWORD': '',                  # Not used with sqlite3.
-          'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
-          'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
+!         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
+!         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
       }
---- 12,20 ----
+  }
+  
+--- 11,22 ----
+  
   DATABASES = {
       'default': {
-          'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-!         'NAME': 'natourpress',           # Or path to database file if using sqlite3.
-!         'USER': 'natourpress',           # Not used with sqlite3.
-!         'PASSWORD': 'natourpress',       # Not used with sqlite3.
-          'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
-          'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
+!         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+!         'NAME': 'natourpress',                # Or path to database file if using sqlite3.
+!         'USER': 'natourpress',                # Not used with sqlite3.
+!         'PASSWORD': 'natourpress',            # Not used with sqlite3.
+!         'HOST': '',                           # Set to empty string for localhost. Not used with sqlite3.
+!         'PORT': '',                           # Set to empty string for default. Not used with sqlite3.
       }
+  }
+  
 ***************
-*** 115,120 ****
---- 115,121 ----
-      'django.contrib.sites',
-      'django.contrib.messages',
-      'django.contrib.staticfiles',
-+     'natourpress',
-      # Uncomment the next line to enable the admin:
+*** 119,124 ****
+--- 119,125 ----
       # 'django.contrib.admin',
       # Uncomment the next line to enable admin documentation:
+      # 'django.contrib.admindocs',
++     'natourpress',
+  )
+  
+  # A sample logging configuration. The only tangible logging
