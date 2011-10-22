@@ -1,0 +1,33 @@
+*** ./NatourPress/settings.py	2011-10-22 12:15:17.000000000 +0200
+--- ./NatourPress/settings.py	2011-10-22 14:38:40.000000000 +0200
+***************
+*** 12,20 ****
+  DATABASES = {
+      'default': {
+          'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+!         'NAME': '',                      # Or path to database file if using sqlite3.
+!         'USER': '',                      # Not used with sqlite3.
+!         'PASSWORD': '',                  # Not used with sqlite3.
+          'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
+          'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
+      }
+--- 12,20 ----
+  DATABASES = {
+      'default': {
+          'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+!         'NAME': 'natourpress',           # Or path to database file if using sqlite3.
+!         'USER': 'natourpress',           # Not used with sqlite3.
+!         'PASSWORD': 'natourpress',       # Not used with sqlite3.
+          'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
+          'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
+      }
+***************
+*** 115,120 ****
+--- 115,121 ----
+      'django.contrib.sites',
+      'django.contrib.messages',
+      'django.contrib.staticfiles',
++     'natourpress',
+      # Uncomment the next line to enable the admin:
+      # 'django.contrib.admin',
+      # Uncomment the next line to enable admin documentation:
