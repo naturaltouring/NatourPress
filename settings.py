@@ -1,4 +1,4 @@
-# Django settings for mendialdea project.
+# Django settings for NatourPress project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -11,12 +11,12 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'natourpress',                      
-        'USER': 'natourpress',
-        'PASSWORD': 'natourpress',                  
-        'HOST': '',                      
-        'PORT': '',                      
+        'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': 'natourpress',           # Or path to database file if using sqlite3.
+        'USER': 'natourpress',           # Not used with sqlite3.
+        'PASSWORD': 'natourpress',       # Not used with sqlite3.
+        'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
+        'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
 }
 
@@ -83,7 +83,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '87$q1__)dw!)8cy-_c&ej@3xgli6h)dtn_n9^y(njs7z^_#l=4'
+SECRET_KEY = '5!=*!wt&26i#u&hd04gou01=re!yhlwu+rknol7%*a=l2vquu('
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -100,7 +100,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'urls'
+ROOT_URLCONF = 'NatourPress.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -115,6 +115,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'natourpress',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:

@@ -1,4 +1,7 @@
-this repo contents a django-project (/var/www/mendialdea) and a django-app (natourpress)
-'doc' folder contents documentation
-'scripts' folder contents several bash and python script
 
+This folder is a django-project:
+ 'natourpress' folder is a django app
+ 'doc' folder contents documentation
+ 'scripts' folder contents several bash and python script
+
+See doc/deploy.txt to deploy NatourPress
