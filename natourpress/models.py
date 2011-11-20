@@ -1,7 +1,6 @@
 from django.db import models
 from django.utils.translation import ugettext_lazy as _ 
 
-# Create your models here.
 class Feed(models.Model):
     feed_url = models.URLField('feed url', unique=True)
     name = models.CharField(_('name'), max_length=50)
